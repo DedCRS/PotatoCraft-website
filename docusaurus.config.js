@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '土豆网络',
-  tagline: 'S16: PotatoPowered',
+  tagline: 'PotatoNetwork',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
