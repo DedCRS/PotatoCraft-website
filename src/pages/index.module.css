@@ -13,13 +13,13 @@
 
 .hero {
   background-color: #2b3137;
-  padding: 48px;
+  padding: 62px;
 }
 
 .heroInner {
   margin: 0 auto;
   max-width: 1100px;
-  padding: 0 20px;
+  padding: 0 80px;
 }
 
 .heroProjectTagline {
@@ -138,7 +138,7 @@
 }
 
 
-.topBanner {
+.seasonBanner {
   font-size: 20px;
   padding: 20px;
   max-width: 900px;
@@ -149,40 +149,61 @@
   align-items: center;
 }
 
-.topBannerTitle {
+.seasonBannerTitle {
   font-size: 44px;
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
 
 @media only screen and (max-width: 768px) {
-  .topBannerTitle {
+  .seasonBannerTitle {
     font-size: 34px;
   }
 }
 
-.topBannerTitleText {
+.seasonBannerTitleText {
   background: linear-gradient(45deg, #399cff, #00c775 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.topBannerTitleText:hover {
+.seasonBannerTitleText:hover {
   border-bottom: solid 2px;
 }
 
-html[data-theme='dark'] .topBannerTitleText {
+html[data-theme='dark'] .seasonBannerTitleText {
   background: linear-gradient(45deg, #399cff, #00ff95 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.topBannerDescription {
+.seasonBannerDescription {
   font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
-  .topBannerDescription {
+  .seasonBannerDescription {
     font-size: 16px;
     white-space: normal;
   }
+}
+
+.addressBanner {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.addressBannerDark {
+  background-color: #20232a;
+  color: #fff;
+  /* Reapply the primary color, because it has been locally overridden as
+   * the dark theme color */
+  --ifm-link-color: var(--ifm-color-primary);
+}
+
+.addressBannerInner {
+  margin: 0 auto;
+  max-width: 768px;
 }

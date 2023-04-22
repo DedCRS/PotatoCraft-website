@@ -10,44 +10,43 @@ import styles from './index.module.css';
 function HeroBanner() {
   return (
     <div className={styles.hero} data-theme="dark">
-      <div className={styles.heroInner}>
+    <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <span
-            className={styles.heroTitleTextHtml}
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{
-              __html: '<b>长期开放</b> 的 Minecraft <b>生存</b> 服务器。 完全<b>免费</b>，稳定运行。'
-            }}
+          className={styles.heroTitleTextHtml}
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+          __html: '<b>长期开放</b>的 Minecraft <b>生存</b>服务器。 完全<b>免费</b>，稳定运行。&nbsp'
+          }}
           />
         </Heading>
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/current-season">
-            文档
+          文档
           </Link>
           <Link className="button button--info" to="https://drive.curiousers.org/Backups/Potato/client/PotatoPowered/">
-            整合包下载
+          模组包下载
           </Link>
-          
         </div>
-      </div>
+    </div>
     </div>
   );
 }
 
-function TopBanner() {
+function SeasonBanner() {
   return (
-    <div className={styles.topBanner}>
-      <div className={styles.topBannerTitle}>
+    <div className={styles.seasonBanner}>
+      <div className={styles.seasonBannerTitle}>
         {'🎉\xa0'}
         <Link
           to="/blog/s16-launched"
-          className={styles.topBannerTitleText}>
+          className={styles.seasonBannerTitleText}>
           16 周目: PotatoPowered
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
-          <div className={styles.topBannerDescription}>
+          <div className={styles.seasonBannerDescription}>
             现已升级{' '}
             <b>
               <Link to="https://www.minecraft.net/article/minecraft-java-edition-1-19-2">
@@ -61,16 +60,26 @@ function TopBanner() {
             ！
           </div>
         </div>
-        <div
-          style={{
-            flexGrow: 1,
-            flexShrink: 0,
-            padding: '0.5rem',
-            display: 'flex',
-            justifyContent: 'center',
-          }}>
-        </div>
       </div>
+    </div>
+  );
+}
+
+function ServerAddressBanner() {
+  return (
+    <div
+    className={clsx(styles.addressBanner, styles.addressBannerDark)}
+    data-theme="dark">
+    <div className={styles.addressBannerInner}>
+        服务器地址：
+        <code>
+        upt.curiousers.org
+        </code>
+        <br />Minecraft 1.19.2 Forge
+        <br />需要
+        <Link to="https://drive.curiousers.org/Backups/Potato/client/PotatoPowered/">
+        模组包</Link>
+    </div>
     </div>
   );
 }
@@ -81,9 +90,10 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title} - CSUB`}
       description="Description will go into a meta tag in <head />">
-      <TopBanner />
+      <SeasonBanner />
       <main>
-      <HeroBanner />
+        <HeroBanner />
+        <ServerAddressBanner />
         <HomepageFeatures />
       </main>
     </Layout>
