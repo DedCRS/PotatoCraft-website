@@ -94,7 +94,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/status', label: '服务器状态', position: 'left'},
+          {to: 'https://stats.uptimerobot.com/305nWhXn1B', label: '服务器状态', position: 'left'},
           {to: '/donate', label: '捐助', position: 'right'},
           {to: '/contact', label: '管理组', position: 'right'},
         ],

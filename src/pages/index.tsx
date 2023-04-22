@@ -70,6 +70,7 @@ function ServerAddressBanner() {
     <div
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
+    <iframe width='860' height='240' src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"></iframe>
     <div className={styles.addressBannerInner}>
         服务器地址：
         <code>

@@ -149,6 +149,11 @@
   align-items: center;
 }
 
+iframe {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
 .seasonBannerTitle {
   font-size: 44px;
   font-weight: bold;
