@@ -10,7 +10,7 @@ import styles from './donate.module.css';
 function DonateHeader() {
     return (
       <section className="margin-top--lg margin-bottom--lg text--center">
-        <Heading as="h1">我们需要您的捐助</Heading>
+        <Heading as="h1">您的捐助十分重要</Heading>
         <p>Potato 的全部运营成本都来自玩家的捐助。我们目前<b>只公开了</b>爱发电渠道的捐助。</p>
         <p>如果您在留言中留下了您的 GitHub 用户名（用于展示头像），您的捐助将会被展示在这里。</p>
         <Link className="button button--primary" to='https://afdian.net/a/curiousers'>

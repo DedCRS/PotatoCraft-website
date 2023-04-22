@@ -1,5 +1,5 @@
 ---
-title: 服务器状态
+title: 联系信息
 hide_table_of_contents: true
 ---
 
