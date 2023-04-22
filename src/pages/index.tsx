@@ -85,11 +85,10 @@ function ServerAddressBanner() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - CSUB`}
-      description="Description will go into a meta tag in <head />">
+      title={`首页`}
+      description="PotatoNetwork">
       <SeasonBanner />
       <main>
         <HeroBanner />

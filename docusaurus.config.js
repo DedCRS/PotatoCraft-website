@@ -68,8 +68,8 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: 'announcementBar-2', // Increment on change
-        content: `⭐️ 如果您玩的开心，可以考虑 <a target="_blank" rel="noopener noreferrer" href="donate">给 CSUB 捐助</a> 或给我们的 <a target="_blank" rel="noopener noreferrer" href="https://github.com/yukonisen/PotatoNetwork">GitHub</a> 点个 Star，感谢您的支持！`,
+        id: 'donateAnnouncement-1', // Increment on change
+        content: `⭐️ 如果您玩的开心，可以考虑 <a href="donate">给 CSUB 捐助</a> 或给我们的 <a target="_blank" rel="noopener noreferrer" href="https://github.com/yukonisen/PotatoNetwork">GitHub</a> 点个 Star，感谢您的支持！`,
         backgroundColor: '#25c2a0',
         textColor: '#2c2f33',
         isCloseable: true,
