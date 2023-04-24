@@ -23,7 +23,7 @@ const Card: DonorItem[] = [
     date: '2023/03/26',
     notes: (
       <>
-        用于域名续费
+        备注：用于域名续费
       </>
     ),
     showOnHomepage: true,
@@ -36,7 +36,7 @@ const Card: DonorItem[] = [
     date: '2023/02/17',
     notes: (
       <>
-        用于服务器续费
+        备注：用于服务器续费
       </>
     ),
     showOnHomepage: true,

@@ -94,9 +94,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {to: 'https://stats.uptimerobot.com/305nWhXn1B', label: '服务器状态', position: 'left'},
-          {to: '/donate', label: '捐助', position: 'right'},
-          {to: '/contact', label: '管理组', position: 'right'},
+          {href: 'https://stats.uptimerobot.com/305nWhXn1B',
+            label: '服务器状态',
+            position: 'right'},
+          {to: '/donate', label: '捐助', position: 'left'},
+          {to: '/contact', label: '管理组', position: 'left'},
         ],
       },
       footer: {
@@ -110,8 +112,8 @@ const config = {
                 to: '/docs/current-season',
               },
               {
-                label: '常见问题',
-                to: '/docs/current-season',
+                label: '故障排除',
+                to: '/docs/tutorial-joining/troubleshooting',
               },
             ],
           },
@@ -124,7 +126,7 @@ const config = {
               },
               {
                 label: 'TeamSpeak 3',
-                href: '#',
+                href: 'https://curiousers.org/teamspeak3',
               },
             ],
           },
@@ -138,6 +140,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/yukonisen/PotatoNetwork',
+              },
+              {
+                label: 'Curiousers!',
+                href: 'https://curiousers.org',
               },
             ],
           },

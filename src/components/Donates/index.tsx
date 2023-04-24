@@ -54,7 +54,7 @@ export default function Donates({
         </Link>
       </div>
 
-      <div className={clsx('card__body', styles.donationMeta)}>备注：{notes}</div>
+      <div className={clsx('card__body', styles.donationMeta)}>{notes}</div>
 
       <div className="card__footer">{date}</div>
     </div>
