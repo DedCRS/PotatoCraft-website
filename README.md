@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the reposity of "Potato" (a Minecraft server) website.
+Reposity of "Potato"(a Minecraft server)'s website.
 
 ## Documentation
 
