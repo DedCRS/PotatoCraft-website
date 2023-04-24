@@ -22,7 +22,7 @@ function DonateHeader() {
 
 function DonorsSection() {
     const donateColumns: DonatesItem[][] = [[], [], []];
-    Donors.filter((card) => card.showOnHomepage).forEach((card, i) =>
+    Donors.filter((card) => card.showed).forEach((card, i) =>
       donateColumns[i % 3]!.push(card),
     );
   

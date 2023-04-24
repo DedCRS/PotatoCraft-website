@@ -12,7 +12,7 @@ import React from 'react';
 import type {Props as Donor} from '../components/Donates';
 
 export type DonorItem = Donor & {
-  showOnHomepage: boolean;
+  showed: boolean;
 };
 
 const Card: DonorItem[] = [
@@ -26,7 +26,7 @@ const Card: DonorItem[] = [
         备注：用于域名续费
       </>
     ),
-    showOnHomepage: true,
+    showed: true,
     githubUsername: 'yukonisen',
   },
   {
@@ -39,7 +39,7 @@ const Card: DonorItem[] = [
         备注：用于服务器续费
       </>
     ),
-    showOnHomepage: true,
+    showed: true,
     githubUsername: 'kssiner',
   },
 ];
