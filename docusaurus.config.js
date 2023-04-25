@@ -98,7 +98,7 @@ const config = {
             label: '服务器状态',
             position: 'right'},
           {to: '/donate', label: '捐助', position: 'left'},
-          {to: '/contact', label: '管理组', position: 'left'},
+          {to: '/community', label: '社区', position: 'left'},
         ],
       },
       footer: {
@@ -113,12 +113,12 @@ const config = {
               },
               {
                 label: '故障排除',
-                to: '/docs/tutorial-joining/troubleshooting',
+                to: '/docs/joining/troubleshooting',
               },
             ],
           },
           {
-            title: '社区',
+            title: 'CSUB 社群',
             items: [
               {
                 label: 'KOOK 语音',
@@ -126,17 +126,13 @@ const config = {
               },
               {
                 label: 'TeamSpeak 3',
-                href: 'https://curiousers.org/teamspeak3',
+                href: 'https://ts.curiousers.org',
               },
             ],
           },
           {
             title: '更多',
             items: [
-              {
-                label: '联系管理组',
-                to: '/contact',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/yukonisen/PotatoNetwork',
