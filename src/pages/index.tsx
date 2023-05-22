@@ -38,7 +38,7 @@ function SeasonBanner() {
       <div className={styles.seasonBannerTitle}>
         {'🎉\xa0'}
         <Link
-          to="/blog/s16-launched"
+          to="/blog/s16"
           className={styles.seasonBannerTitleText}>
           16 周目: PotatoPowered
         </Link>
