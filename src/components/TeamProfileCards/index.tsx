@@ -152,9 +152,8 @@ export function AdministrationRow(): JSX.Element {
       <TeamProfileCardCol
         name="[CSUB] yukonisen#QwQ"
         githubUrl="https://github.com/yukonisen">
-          yukonisen here, the developer and maintainer behind Potato. Although I built and maintained the server, it is actually you who gave Potato life. After all, without your love and support, Potato wouldn't have become what it is today.
-          <br />For any questions you may have, you can contact me via:<br /><br />
-          Email <code><a href='mailto:yukonisen@curiousers.org'>yukonisen@curiousers.org</a></code>
+          For any questions you may have, you can contact me via:<br /><br />
+          Email: <code><a href='mailto:yukonisen@curiousers.org'>yukonisen(at)curiousers.org</a></code>
       </TeamProfileCardCol>
     </div>
   );
@@ -171,11 +170,11 @@ export function IMRow(): JSX.Element {
           ，密码<code>staro</code>。<br /><br />🇨🇳 如果有需要，可以<a href="https://github.com/jitingcn/TS3-Translation_zh-CN/releases">在这里</a>下载简体中文语言包。🇨🇳
       </IMProfileCardCol>
       <IMProfileCardCol
-        name="KOOK 语音"
+        name="KOOK 语音（弃用）"
         inviteUrl="https://www.kookapp.cn/app/invite/Izy7mk"
         iconUrl="https://www.kookapp.cn/favicon.ico"
         websiteUrl="https://www.kookapp.cn/">
-          “一个好用的语音沟通工具” <br /><br />已被我们已经使用 TeamSpeak 3 取代，但你仍然可以加入我们的 KOOK，因为能凑个热闹。为什么不呢？
+          已被我们已经使用 TeamSpeak 3 取代，但你仍然可以加入，因为能凑个热闹。为什么不呢？
       </IMProfileCardCol>
     </div>
   );

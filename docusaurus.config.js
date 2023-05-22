@@ -39,18 +39,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+          },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+          showReadingTime: false,
+          },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -68,11 +60,11 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: 'donateAnnouncement-1', // Increment on change
-        content: `⭐️ 如果您玩的开心，可以考虑 <a href="donate">给 CSUB 捐助</a> 或给我们的 <a target="_blank" rel="noopener noreferrer" href="https://github.com/yukonisen/PotatoNetwork">GitHub</a> 点个 Star，感谢您的支持！`,
+        id: '2023summer-trailer', // Increment on change
+        content: `☀️ 我们将开放 2023 年暑假服活动。开放日期取决于 Minecraft 1.20 发布日期。`,
         backgroundColor: '#25c2a0',
         textColor: '#2c2f33',
-        isCloseable: true,
+        isCloseable: false,
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {

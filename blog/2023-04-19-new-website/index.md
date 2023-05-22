@@ -1,6 +1,7 @@
 ---
-slug: Test
-title: Test
+slug: 20230419_new_website
+title: 新网站已发布
+tags: [公告]
 authors: [yukonisen]
 ---
 
@@ -12,7 +13,7 @@ What's the server address?
 upt.curiousers.org
 ```
 
-- `upt` represents `United Potato Terminal`
+- `upt` represents `Unified Potato Terminal`
 - `curiousers.org` is our domain
 
 

@@ -15,7 +15,7 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '<b>长期开放</b>的 Minecraft <b>生存</b>服务器。 完全<b>免费</b>，稳定运行。&nbsp'
+          __html: '2023 年<b>暑假服</b>活动即将开始，敬请期待。'
           }}
           />
         </Heading>
@@ -42,6 +42,7 @@ function SeasonBanner() {
           className={styles.seasonBannerTitleText}>
           16 周目: PotatoPowered
         </Link>
+        (PHASE 1)
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
