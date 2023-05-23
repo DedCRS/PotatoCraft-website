@@ -107,6 +107,10 @@ const config = {
                 label: '故障排除',
                 to: '/docs/joining/troubleshooting',
               },
+              {
+                label: '规则',
+                to: '/rule',
+              },
             ],
           },
           {
