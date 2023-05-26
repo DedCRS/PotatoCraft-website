@@ -39,6 +39,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/yukonisen/PotatoNetwork/tree/master/',
           },
         blog: {
           showReadingTime: false,
@@ -130,7 +132,7 @@ const config = {
             title: '更多',
             items: [
               {
-                label: 'GitHub',
+                label: '查看源码',
                 href: 'https://github.com/yukonisen/PotatoNetwork',
               },
               {
@@ -140,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Curiousers!`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://curiousers.org/" target="_blank">Curiousers!</a> and <a href="https://github.com/yukonisen/PotatoNetwork/graphs/contributors" target="_blank">Contributors</a>.`,
       },
       prism: {
         theme: lightCodeTheme,

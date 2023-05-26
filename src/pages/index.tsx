@@ -7,6 +7,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HeroBanner() {
+  
   return (
     <div className={styles.hero} data-theme="dark">
     <div className={styles.heroInner}>
@@ -16,14 +17,14 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '超越<b>界限</b>'
+          __html: 'Potato 可能会<b>倒闭</b>，但也可能<b>不会</b>。'
           }}
           />
         </Heading>
         
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/current-season">
-          文档
+          加入服务器
           </Link>
         </div>
         </center>
@@ -38,7 +39,7 @@ function SeasonBanner() {
       <div className={styles.seasonBannerTitle}>
         {'🎉\xa0'}
         <Link
-          to="/blog/s16"
+          to="/blog/s17"
           className={styles.seasonBannerTitleText}>
           17 周目: Superar Barrera
         </Link>
@@ -46,12 +47,12 @@ function SeasonBanner() {
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            现已升级{' '}
+            现在具有{' '}
             <b>
                 Minecraft 1.20 (Java Edition) + 1.20.0 (Bedrock Edition)
               {' '}
             </b>
-            ！
+            完整支持！
           </div>
         </div>
       </div>

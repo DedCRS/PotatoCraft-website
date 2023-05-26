@@ -167,7 +167,7 @@ export function IMRow(): JSX.Element {
         iconUrl= "https://teamspeak.com/user/themes/teamspeak/images/logo_inverse.svg"
         websiteUrl="https://teamspeak.com/en/downloads/#client">
           使用 TeamSpeak 3 客户端加入我们的服务器并开始语音聊天。<br />服务器地址：<br /><code>ts.curiousers.org</code>
-          ，密码<code>staro</code>。<br /><br />🇨🇳 如果有需要，可以<a href="https://github.com/jitingcn/TS3-Translation_zh-CN/releases">在这里</a>下载简体中文语言包。🇨🇳
+          ，密码<code>staro</code>。<br /><br />🇨🇳 如果有需要，可以<a href="https://github.com/jitingcn/TS3-Translation_zh-CN/releases" target="_blank">在这里</a>下载简体中文语言包。🇨🇳
       </IMProfileCardCol>
       <IMProfileCardCol
         name="KOOK 语音（弃用）"

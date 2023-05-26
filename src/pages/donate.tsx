@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Donates from '@site/src/components/Donates';
-import Donors, {type DonatesItem} from '@site/src/data/donors';
+import Donors, {type DonatesItem} from '@site/src/data/sponsor';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './donate.module.css';
