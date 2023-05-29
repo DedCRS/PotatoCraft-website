@@ -17,7 +17,7 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: 'Potato 可能会<b>倒闭</b>，但也可能<b>不会</b>。'
+          __html: 'Potato 未来可能会<b>倒闭</b>，但也<b>可能不会</b>。'
           }}
           />
         </Heading>
