@@ -63,12 +63,11 @@ const config = {
       },
       announcementBar: {
         id: '2023summer-trailer', // Increment on change
-        content: `☀️ 我们将开放 2023 年暑假服活动。开放日期取决于 Minecraft 1.20 发布日期。`,
+        content: `☀️ 我们预计在 6 月 20 日开放 <a href="/blog/s17">2023 年暑假服活动。</a>`,
         backgroundColor: '#25c2a0',
         textColor: '#2c2f33',
-        isCloseable: false,
+        isCloseable: true,
       },
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '土豆网络',
         logo: {
@@ -103,7 +102,7 @@ const config = {
             items: [
               {
                 label: '加入服务器',
-                to: '/docs/current-season',
+                to: '/docs/intro',
               },
               {
                 label: '故障排除',
@@ -139,10 +138,24 @@ const config = {
                 label: 'Curiousers!',
                 href: 'https://curiousers.org',
               },
+              {
+                html: `
+                  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noreferrer noopener" aria-label="CC BY-NC 4.0">
+                    <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg" alt="CC BY-NC 4.0" />
+                  </a>
+                `,
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://curiousers.org/" target="_blank">Curiousers!</a> and <a href="https://github.com/yukonisen/PotatoNetwork/graphs/contributors" target="_blank">Contributors</a>.`,
+        
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://curiousers.org/" target="_blank">Curiousers!</a> and <a href="https://github.com/yukonisen/PotatoNetwork/graphs/contributors" target="_blank">Contributors</a>.
+        <br />
+        <a>
+          <img src="https://vercelbadge.vercel.app/api/yukonisen/potatonetwork?style=flat-square" />
+          <img src="https://img.shields.io/github/languages/top/yukonisen/potatonetwork?style=flat-square" />
+          <img src="https://img.shields.io/github/last-commit/yukonisen/potatonetwork?style=flat-square" />
+        `,
       },
       prism: {
         theme: lightCodeTheme,

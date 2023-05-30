@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 加入服务器
 
-*待补充*
+见 [加入服务器](/docs/category/加入服务器) 分类。
 
 ## 客户端支持
 

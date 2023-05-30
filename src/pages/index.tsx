@@ -23,7 +23,7 @@ function HeroBanner() {
         </Heading>
         
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/current-season">
+          <Link className="button button--primary" to="/docs/intro">
           加入服务器
           </Link>
         </div>
@@ -49,10 +49,10 @@ function SeasonBanner() {
           <div className={styles.seasonBannerDescription}>
             现在具有{' '}
             <b>
-                Minecraft 1.20 (Java Edition) + 1.20.0 (Bedrock Edition)
+                Minecraft 1.20 + 基岩版
               {' '}
             </b>
-            完整支持！
+            兼容支持！
           </div>
         </div>
       </div>
