@@ -41,7 +41,7 @@ function SeasonBanner() {
         <Link
           to="/blog/s17"
           className={styles.seasonBannerTitleText}>
-          17 周目: Superar Barrera
+          17 周目: Revitalisierung
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
@@ -73,7 +73,7 @@ function ServerAddressBanner() {
 export default function Home() {
   return (
     <Layout
-      title={`超越界限`}
+      title={`新生`}
       description="PotatoNetwork">
       <main>
         <HeroBanner />
