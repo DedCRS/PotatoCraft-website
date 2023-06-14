@@ -75,6 +75,7 @@ export default function Home() {
     <Layout
       title={`新生`}
       description="PotatoNetwork">
+        <SeasonBanner />
       <main>
         <HeroBanner />
         <ServerAddressBanner />

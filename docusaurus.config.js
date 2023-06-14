@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: '故障排除',
-                to: '/docs/joining/troubleshooting',
+                to: '/docs/starting/troubleshooting',
               },
               {
                 label: '规则',
@@ -140,8 +140,8 @@ const config = {
               },
               {
                 html: `
-                  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noreferrer noopener" aria-label="CC BY-NC 4.0">
-                    <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg" alt="CC BY-NC 4.0" />
+                  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener" aria-label="CC BY-NC 4.0">
+                    <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="CC BY-NC 4.0" />
                   </a>
                 `,
               },
