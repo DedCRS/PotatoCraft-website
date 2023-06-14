@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 当前周目
 
-第 17 周目：[Superar Barrera](/blog/s17) 预计于 2023/06/20 开始。
+第 17 周目：[Revitalisierung](/blog/s17) 将于 2023/06/20 开始。
 
 ## 加入服务器
 
