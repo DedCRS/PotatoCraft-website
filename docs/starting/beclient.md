@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # 准备基岩版客户端
@@ -20,6 +20,4 @@ sidebar_position: 1
 
 | 服务器名称     | 服务器地址 | 端口 |
 | ----------- | :-----: | :-----: |
-| *任意*     | `upt.curiousers.org` | 默认（`19132`） |
-
-![demo2](img/be-addsvr-2.webp)
+| *任意*     | `be.curiousers.org` | 默认（`15397`） |
