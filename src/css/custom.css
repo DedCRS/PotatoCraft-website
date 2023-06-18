@@ -45,3 +45,9 @@ div[class^='announcementBar_'] {
   );
   font-weight: bold;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap');
+
+body {
+font-family: 'Noto Sans SC', sans-serif;
+}
