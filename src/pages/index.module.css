@@ -12,8 +12,10 @@
 
 
 .hero {
-  background-color: #2b3137;
-  padding: 62px;
+  background-image: url('img/header.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 92px;
 }
 
 .heroInner {
@@ -26,6 +28,10 @@
   color: #fff;
   font-size: 60px;
   margin: 0;
+}
+
+.heroTitleTextHtml {
+  background-color: #00000080
 }
 
 .heroTitleTextHtml b {
@@ -147,11 +153,6 @@
   align-items: center;
 }
 
-iframe {
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
-}
-
 .seasonBannerTitle {
   font-size: 44px;
   font-weight: bold;
@@ -191,8 +192,8 @@ html[data-theme='dark'] .seasonBannerTitleText {
 }
 
 .addressBanner {
-  font-weight: bold;
   font-size: 24px;
+  height: 300px;
   padding: 48px;
   margin: 0 auto;
   text-align: center;

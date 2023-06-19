@@ -17,14 +17,17 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: 'Potato 未来可能会<b>倒闭</b>，但也<b>可能不会</b>。'
+          __html: '公益<b>跨平台</b>生存'
           }}
           />
         </Heading>
         
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/intro">
-          加入服务器
+          帮助文档
+          </Link>
+          <Link className="button button--secondary" href="https://s.csub.ml/PWJnY">
+          在线地图
           </Link>
         </div>
         </center>
@@ -65,7 +68,12 @@ function ServerAddressBanner() {
     <div
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
-    <iframe width='860' height='240' src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"></iframe>
+      <p>Java 1.20+ : <code>upt.curiousers.org</code></p>
+      <p>Bedrock 1.20+ : <code>be.curiousers.org</code>:<code>15397</code></p>
+    <img
+          src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"
+          style={{ height: '60%' }}
+        />
     </div>
   );
 }

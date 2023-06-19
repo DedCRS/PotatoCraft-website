@@ -63,7 +63,7 @@ const config = {
       },
       announcementBar: {
         id: '2023summer-trailer', // Increment on change
-        content: `☀️ 我们预计在 6 月 20 日开放 <a href="/blog/s17">2023 年暑假服活动。</a>`,
+        content: `☀️ <a href="/blog/s17">2023 年暑假服活动</a> 现已开启。`,
         backgroundColor: '#25c2a0',
         textColor: '#2c2f33',
         isCloseable: true,
@@ -90,8 +90,9 @@ const config = {
           {href: 'https://stats.uptimerobot.com/305nWhXn1B',
             label: '服务器状态',
             position: 'right'},
+          {href: 'https://s.csub.ml/PWJnY', label: '世界地图', position: 'right'},
           {to: '/donate', label: '捐助', position: 'left'},
-          {to: '/community', label: '社区', position: 'left'},
+          {to: '/community', label: 'CSUB 社区', position: 'left'},
         ],
       },
       footer: {

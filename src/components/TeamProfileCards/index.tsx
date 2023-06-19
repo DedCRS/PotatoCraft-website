@@ -103,6 +103,7 @@ function IMProfileCard({
             <img
               className="avatar__photo avatar__photo--xl"
               src={`${iconUrl}`}
+              style={{ objectFit: 'contain'}}
             />
             <div className="avatar__intro">
               <Heading as="h3" className="avatar__name">
@@ -142,7 +143,7 @@ export function AdministrationRow(): JSX.Element {
   return (
     <div className="row">
       <TeamProfileCardCol
-        name="dmzz"
+        name="NightFish"
         githubUrl="https://github.com/dmzz-yyhyy">
       </TeamProfileCardCol>
       <TeamProfileCardCol
@@ -152,8 +153,6 @@ export function AdministrationRow(): JSX.Element {
       <TeamProfileCardCol
         name="[CSUB] yukonisen#QwQ"
         githubUrl="https://github.com/yukonisen">
-          For any questions you may have, you can contact me via:<br /><br />
-          Email: <code><a href='mailto:yukonisen@curiousers.org'>yukonisen(at)curiousers.org</a></code>
       </TeamProfileCardCol>
     </div>
   );
@@ -170,11 +169,23 @@ export function IMRow(): JSX.Element {
           ，密码<code>staro</code>。<br /><br />🇨🇳 如果有需要，可以<a href="https://github.com/jitingcn/TS3-Translation_zh-CN/releases" target="_blank">在这里</a>下载简体中文语言包。🇨🇳
       </IMProfileCardCol>
       <IMProfileCardCol
-        name="KOOK 语音（弃用）"
+        name="QQ 群聊"
+        inviteUrl="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1PBni0QwNyJrnEYpAdC_JGlECQabB4ui&authKey=xACcrSZkS3%2FqQFbHpjV1mvFEpRWkoIO0VsFr6jOy7io2pC8UHPJUVfHpJO1LcfdF&noverify=0&group_code=605822090"
+        iconUrl="https://wiki.connect.qq.com/wp-content/uploads/2013/10/03_qq_symbol-1-250x300.png"
+        websiteUrl="https://im.qq.com/">
+          加入我们的QQ群聊开始讨论。<br/>由于<a href="/blog/qq-group-explanation">历史遗留原因</a>，这个群聊<b>并非</b>CSUB所拥有，但仍然是我们讨论的主要渠道之一。
+      </IMProfileCardCol>
+      <IMProfileCardCol
+        name="KOOK 语音"
         inviteUrl="https://www.kookapp.cn/app/invite/Izy7mk"
         iconUrl="https://www.kookapp.cn/favicon.ico"
         websiteUrl="https://www.kookapp.cn/">
           已被我们已经使用 TeamSpeak 3 取代，但你仍然可以加入，因为能凑个热闹。为什么不呢？
+      </IMProfileCardCol>
+      <IMProfileCardCol
+        name="其他平台？"
+        iconUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/300px-Icon-round-Question_mark.svg.png">
+          还有什么合适的平台吗？在社区内或<a href='mailto:yukonisen@curiousers.org'>发送 Email</a>推荐给我们！
       </IMProfileCardCol>
     </div>
   );
