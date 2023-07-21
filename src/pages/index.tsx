@@ -23,8 +23,8 @@ function HeroBanner() {
         </Heading>
         
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/intro">
-          帮助文档
+          <Link className="button button--primary" to="/play">
+          游玩
           </Link>
           <Link className="button button--secondary" href="https://s.csub.ml/PWJnY">
           在线地图
@@ -81,7 +81,6 @@ function ServerAddressBanner() {
 export default function Home() {
   return (
     <Layout
-      title={`新生`}
       description="PotatoNetwork">
         <SeasonBanner />
       <main>
