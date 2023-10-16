@@ -63,9 +63,9 @@ const config = {
       },
       announcementBar: {
         id: '2023summer-trailer', // Increment on change
-        content: `☀️ <a href="/blog/s17">2023 年暑假服活动</a> 现已开启。`,
+        content: `欢迎加入 <a href="https://www.kookapp.cn/app/invite/Izy7mk">Curiousers 的 KOOK 服务器</a> ！`,
         backgroundColor: '#25c2a0',
-        textColor: '#2c2f33',
+        textColor: '#222222',
         isCloseable: true,
       },
       navbar: {
@@ -75,7 +75,7 @@ const config = {
           src: 'https://static.wikia.nocookie.net/minecraft/images/5/51/Potato_TextureUpdate.png',
         },
         items: [
-          {to: '/play', label: '🎮立刻游玩', position: 'left'},
+          {to: '/docs/intro', label: '🎮立刻游玩', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -86,7 +86,6 @@ const config = {
           {href: 'https://stats.uptimerobot.com/305nWhXn1B',
             label: '📡服务器状态',
             position: 'right'},
-          {href: 'https://s.csub.ml/PWJnY', label: '🗺️世界地图', position: 'right'},
           {to: '/donate', label: '🎁捐助', position: 'left'},
         ],
       },
@@ -99,10 +98,6 @@ const config = {
               {
                 label: '加入服务器',
                 to: '/docs/intro',
-              },
-              {
-                label: '故障排除',
-                to: '/docs/starting/troubleshooting',
               },
               {
                 label: '规则',
@@ -127,7 +122,7 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '查看源码',
+                label: 'GitHub',
                 href: 'https://github.com/yukonisen/PotatoNetwork',
               },
               {

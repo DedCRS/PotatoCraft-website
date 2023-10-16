@@ -18,8 +18,8 @@ export type DonorItem = Donor & {
 const Card: DonorItem[] = [
   {
     name: 'yukonisen#QwQ',
-    via: 'VISA 付款',
-    amount: 'US$10.79',
+    via: '捐助',
+    amount: 'US$##.##',
     date: '2023/03/26',
     notes: (
       <>
@@ -31,8 +31,8 @@ const Card: DonorItem[] = [
   },
   {
     name: 'KSSiner',
-    via: 'Alipay 转账',
-    amount: 'CN￥100',
+    via: '捐助',
+    amount: 'CN￥###.##',
     date: '2023/02/17',
     notes: (
       <>

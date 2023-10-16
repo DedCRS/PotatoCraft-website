@@ -147,10 +147,6 @@ export function AdministrationRow(): JSX.Element {
         githubUrl="https://github.com/dmzz-yyhyy">
       </TeamProfileCardCol>
       <TeamProfileCardCol
-        name="[CSUB] KSSiner"
-        githubUrl="https://github.com/kssiner">
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
         name="[CSUB] yukonisen#QwQ"
         githubUrl="https://github.com/yukonisen">
       </TeamProfileCardCol>
@@ -163,6 +159,7 @@ export function IMRow(): JSX.Element {
     <div className="row">
       <IMProfileCardCol
         name="TeamSpeak 3"
+        inviteUrl='ts3server://ts.curiousers.org?password=staro'
         iconUrl= "https://teamspeak.com/user/themes/teamspeak/images/logo_inverse.svg"
         websiteUrl="https://teamspeak.com/en/downloads/#client">
           使用 TeamSpeak 3 客户端加入我们的服务器并开始语音聊天。<br />服务器地址：<br /><code>ts.curiousers.org</code>
@@ -180,12 +177,12 @@ export function IMRow(): JSX.Element {
         inviteUrl="https://www.kookapp.cn/app/invite/Izy7mk"
         iconUrl="https://www.kookapp.cn/favicon.ico"
         websiteUrl="https://www.kookapp.cn/">
-          已被我们已经使用 TeamSpeak 3 取代，但你仍然可以加入，因为能凑个热闹。为什么不呢？
+          加入 KOOK 的语音聊天。
       </IMProfileCardCol>
       <IMProfileCardCol
         name="其他平台？"
         iconUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/300px-Icon-round-Question_mark.svg.png">
-          还有什么合适的平台吗？在社区内或<a href='mailto:yukonisen@curiousers.org'>发送 Email</a>推荐给我们！
+          还有什么合适的平台吗？在社区内或<a href='mailto:yukonisen@curiousers.org'>发送 Email</a> 推荐给我们！
       </IMProfileCardCol>
     </div>
   );

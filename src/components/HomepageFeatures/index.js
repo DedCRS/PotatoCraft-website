@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/feature2.svg').default,
     description: (
       <>
-        我们有一份关于Potato的完整 Wiki，包括会教你如何连接服务器。
+        我们曾经有一份关于Potato的完整 Wiki，但现在没有了。
       </>
     ),
   },

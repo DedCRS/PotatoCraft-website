@@ -17,17 +17,14 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '公益<b>跨平台</b>生存'
+          __html: '&nbsp;土豆<b>飞升</b>&nbsp;'
           }}
           />
         </Heading>
         
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/play">
+          <Link className="button button--primary" to="/docs/intro">
           游玩
-          </Link>
-          <Link className="button button--secondary" href="https://s.csub.ml/PWJnY">
-          在线地图
           </Link>
         </div>
         </center>
@@ -42,20 +39,20 @@ function SeasonBanner() {
       <div className={styles.seasonBannerTitle}>
         {'🎉\xa0'}
         <Link
-          to="/blog/s17"
+          to="/blog/s18"
           className={styles.seasonBannerTitleText}>
-          17 周目: Revitalisierung
+          18 周目: Ascension
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            现在具有{' '}
+            现已{' '}
             <b>
-                Minecraft 1.20 + 基岩版
+                开放
               {' '}
             </b>
-            兼容支持！
+            。
           </div>
         </div>
       </div>
@@ -68,8 +65,6 @@ function ServerAddressBanner() {
     <div
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
-      <p>Java 1.20+ : <code>upt.curiousers.org</code></p>
-      <p>Bedrock 1.20+ : <code>be.curiousers.org</code>:<code>15397</code></p>
     <img
           src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"
           style={{ height: '60%' }}
