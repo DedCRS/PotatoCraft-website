@@ -64,7 +64,7 @@ const config = {
       announcementBar: {
         id: '2023summer-trailer', // Increment on change
         content: `欢迎加入 <a href="https://www.kookapp.cn/app/invite/Izy7mk">Curiousers 的 KOOK 服务器</a> ！`,
-        backgroundColor: '#25c2a0',
+        backgroundColor: '#4ec1dd',
         textColor: '#222222',
         isCloseable: true,
       },

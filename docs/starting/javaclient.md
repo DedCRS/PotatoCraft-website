@@ -12,7 +12,7 @@ sidebar_position: 2
 
 您需要先自行准备 JRE (现代 Minecraft 要求 Java >= 17)，比如 [Azul Zulu JRE 17](https://www.azul.com/downloads/?version=java-17-lts&architecture=x86-64-bit&package=jre#zulu)，并推荐为其设置 `JAVA_HOME` 变量。
 
-此外，您也需要自行准备一个*支持CurseForge整合包的* Minecraft 启动器，此处建议 [HMCL](https://hmcl.huangyuhui.net/download/) 或 [PCL2](https://afdian.net/p/0164034c016c11ebafcb52540025c377)。
+此外，您也需要自行准备一个*支持Modrinth整合包的* Minecraft 启动器，此处建议 [HMCL](https://hmcl.huangyuhui.net/download/) 或 [PCL2](https://afdian.net/p/0164034c016c11ebafcb52540025c377)。
 
 ## 导入整合包
 
