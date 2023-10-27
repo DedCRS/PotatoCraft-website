@@ -63,7 +63,7 @@ const config = {
       },
       announcementBar: {
         id: '2023summer-trailer', // Increment on change
-        content: `欢迎加入 <a href="https://www.kookapp.cn/app/invite/Izy7mk">Curiousers 的 KOOK 服务器</a> ！`,
+        content: `欢迎加入 <a href="https://chat.xiaoheihe.cn/ipr36u">Curiousers 的黑盒语音房间</a> ！`,
         backgroundColor: '#4ec1dd',
         textColor: '#222222',
         isCloseable: true,
@@ -109,8 +109,8 @@ const config = {
             title: 'CSUB 社群',
             items: [
               {
-                label: 'KOOK 语音',
-                href: 'https://www.kookapp.cn/app/invite/Izy7mk',
+                label: '黑盒语音',
+                href: 'https://chat.xiaoheihe.cn/ipr36u',
               },
               {
                 label: 'TeamSpeak 3',
