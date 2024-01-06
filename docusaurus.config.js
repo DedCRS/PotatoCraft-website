@@ -62,8 +62,8 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: '2023summer-trailer', // Increment on change
-        content: `欢迎加入 <a href="https://chat.xiaoheihe.cn/ipr36u">Curiousers 的黑盒语音房间</a> ！`,
+        id: 'known-issue', // Increment on change
+        content: `Got a new issue? Don't worry, it's a <a href="https://github.com/DM-Earth/Cabricality/issues/169#issuecomment-1842210066">known issue</a>.`,
         backgroundColor: '#4ec1dd',
         textColor: '#222222',
         isCloseable: true,
