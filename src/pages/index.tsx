@@ -16,7 +16,7 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '&nbsp;土豆<b>飞升</b>&nbsp;'
+          __html: '&nbsp;<b>土豆网络</b>&nbsp;'
           }}
           />
         </Heading>
@@ -24,6 +24,9 @@ function HeroBanner() {
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/docs/intro">
           游玩
+          </Link>
+          <Link className="button button--secondary" href="/docs/crossplay">
+          跨平台游戏
           </Link>
         </div>
         </center>
@@ -36,22 +39,17 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🎉\xa0'}
+        {'🚀\xa0'}
         <Link
           to="/blog/s18"
           className={styles.seasonBannerTitleText}>
-          18 周目: Ascension
+          19 周目: OverSpeeding
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            现已{' '}
-            <b>
-                开放
-              {' '}
-            </b>
-            。
+            2024/02/04{' '} <b> 现已开放 </b> 。
           </div>
         </div>
       </div>
@@ -75,7 +73,7 @@ function ServerAddressBanner() {
 export default function Home() {
   return (
     <Layout
-      description="PotatoNetwork">
+      description="PotatoCraft">
         <SeasonBanner />
       <main>
         <HeroBanner />

@@ -18,8 +18,21 @@ export type DonorItem = Donor & {
 const Card: DonorItem[] = [
   {
     name: 'yukonisen#QwQ',
+    via: '续费',
+    amount: 'US$2##.##',
+    date: '2024/03/17',
+    notes: (
+      <>
+        备注：服务器续费
+      </>
+    ),
+    showed: true,
+    githubUsername: 'yukonisen',
+  },
+  {
+    name: 'yukonisen#QwQ',
     via: '捐助',
-    amount: 'US$##.##',
+    amount: 'US$1#.##',
     date: '2023/03/26',
     notes: (
       <>
@@ -32,7 +45,7 @@ const Card: DonorItem[] = [
   {
     name: 'KSSiner',
     via: '捐助',
-    amount: 'CN￥###.##',
+    amount: 'CN￥1##.##',
     date: '2023/02/17',
     notes: (
       <>
