@@ -54,7 +54,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'known-issue',
-      content: `网络问题（波动、丢包等），请参考<a href="/docs/intro#network"> 这里 </a>！`,
+      content: `网络问题（波动、丢包等），请参考<a href="/docs/networking"> 这里 </a>！`,
       backgroundColor: '#4ec1dd',
       textColor: '#222222',
       isCloseable: true,
@@ -66,8 +66,6 @@ const config: Config = {
           src: 'https://static.wikia.nocookie.net/minecraft/images/5/51/Potato_TextureUpdate.png',
         },
         items: [
-          {to: '/docs/intro', label: '🎮立刻游玩', position: 'left'},
-          {href: 'https://portal.curiousers.org/events/potato-s18.html', label: '📦整合包下载', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -79,6 +77,8 @@ const config: Config = {
             label: '📡服务器状态',
             position: 'right'},
           {to: '/donate', label: '🎁捐助', position: 'left'},
+          {href: 'https://portal.curiousers.org/events/potato-s18.html', label: '📦整合包下载', position: 'left'},
+          {href: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H-M4n639W0unDmzicMfDDz3jHyw1bfoJ&authKey=%2BSAaxUFUgs%2BnTdVOadlMUn3maymaDizC6nG1qzssyVKkICyrVt0M2njxdPEaI3Cz&noverify=0&group_code=605822090', label: '🗯️拉我进群', position: 'left'},
         ],
     },
     footer: {

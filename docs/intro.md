@@ -6,6 +6,8 @@ sidebar_position: 1
 
 本文将以 Windows 平台和 PCL2 为例，并假设你具备一定的计算机基础知识，介绍如何通过 PC 平台加入服务器。
 
+![address](img/svraddress.png)
+
 ## 准备账户
 
 土豆网络为 PC 版玩家提供两种验证的方法，**正版模式** 和 **外置登录**。正版账户需要购买获得，如果你经过考虑后觉得自己更喜欢外置登录，请转至 [LittleSkin](https://littleskin.cn/) 注册一个新账户。如果已拥有一个账户，请跳过此步。
@@ -26,16 +28,10 @@ sidebar_position: 1
 
 **整合包可以从 QQ 群文件或[ 我们的网站 ](https://portal.curiousers.org/events/potato-s18.html)获取。** 
 
+![getclient](img/getclient.png)
+
 然后，就可以使用你喜欢的启动器导入我们的整合包了。
 
 ![imp_mp](img/importmp.png)
 
-> 如果遇到网络问题，请自备代理。
-
-## 网络问题 {#network}
-
-:::warning 请注意
-如果你是中国大陆玩家，由于众所周知的原因，服务器在某些时候可能会出现网络波动。因此，我们建议你使用网络加速器。
-
-一些免费的加速器（如 OurPlay 等）即可很好地代理 Minecraft 流量。
-:::
+> 如果在安装时遇到网络问题，请自备代理。
