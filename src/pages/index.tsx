@@ -41,7 +41,7 @@ function SeasonBanner() {
       <div className={styles.seasonBannerTitle}>
         {'🚀\xa0'}
         <Link
-          to="/blog/s18"
+          to="/docs/intro"
           className={styles.seasonBannerTitleText}>
           19 周目: OverSpeeding
         </Link>
@@ -49,7 +49,7 @@ function SeasonBanner() {
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            2024/02/04{' '} <b> 现已开放 </b> 。
+            2024/02/04{' '} <b> 已开放 </b> 。
           </div>
         </div>
       </div>
