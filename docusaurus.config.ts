@@ -53,8 +53,8 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     announcementBar: {
-      id: 'known-issue',
-      content: `网络问题（波动、丢包等），请参考<a href="/docs/networking"> 这里 </a>！`,
+      id: 'survey',
+      content: `我们正在调查大家的看法及对暑期服务器的意见，<a href="https://forms.office.com/r/pU9Tjc6YYW" target="_blank"> 点击填写问卷 </a>！`,
       backgroundColor: '#4ec1dd',
       textColor: '#222222',
       isCloseable: true,

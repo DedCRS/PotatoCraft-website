@@ -19,14 +19,15 @@ description: 本文提供 PotatoIpDisplay 配置文件说明
   - `"vindex"`: 额外占用固定的 512 KB 内存，缓存 VectorIndex 数据。
   - `"cbuff"`: 额外占用文件大小的内存，缓存整个 ip2region.xdb。
 
-缓存有助于减少 IO 磁盘操作，并在一定程度上提升查询速度。
+缓存有助于减少磁盘 I/O 操作，并在一定程度上提升查询速度。
 
 > 即使是完全基于 xdb 文件的查询，单次查询响应时间在十微秒级别。
 *（来自 ip2region README [[src]](https://github.com/lionsoul2014/ip2region#3%E6%9E%81%E9%80%9F%E6%9F%A5%E8%AF%A2%E5%93%8D%E5%BA%94)）*
 
-:::warning
-插件内置基本的消息格式化功能。设置 `messages.player-chat.enabled` 为 `true` 让插件接管玩家消息。<br/>
-如果你使用消息格式化插件，开启 PAPI 支持（ `papi.enabled` 设置为 `true` ）后即可使用变量了。[变量列表](intro#placeholders)
+:::tip
+自 `1.2` 版本起，PotatoIpDisplay 现在支持 PAPI 了。[变量列表](intro#placeholders)
+
+如果你想使用本插件内置的格式化功能，请将设置 `messages.player-chat.enabled` 为 `true`。
 :::
 
 ## config.yml
