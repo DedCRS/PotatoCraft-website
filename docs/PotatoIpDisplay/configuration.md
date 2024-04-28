@@ -5,6 +5,8 @@ description: 本文提供 PotatoIpDisplay 配置文件说明
 
 # 配置文件
 
+## 说明
+
 `options.mode:` 默认值 `"ip2region"`。查询模式。
   - `"ip2region"`：【推荐！】使用 [Ip2region](https://github.com/lionsoul2014/ip2region) 查询（本地数据库）
   - `"pconline"`：使用 [太平洋网络IP地址查询Web接口](http://whois.pconline.com.cn/) 查询（在线接口）
@@ -41,17 +43,15 @@ config-version: 1
 
 # 常规设置
 options:
-  # 查询模式: "pconline"（在线 API）或 "ip2region"（本地）
+  # 查询模式: "pconline"（在线 API）, "ip2region"（本地）或 "ip-api"（在线 API）
   # "ip2region" 模式为本地查询，插件会自动保存内置的文件至对应路径。
   # 也可以从 [https://github.com/lionsoul2014/ip2region/tree/master/data] 下载
   mode: "ip2region"
-  
   # 缓存模式：只有模式设置为 ip2region 时生效，用于加速查询。
   # "none": 完全基于文件，不进行缓存。
   # "vindex": 额外占用固定的 512 KB 内存，缓存 VectorIndex 数据。
   # "cbuff": 额外占用文件大小的内存，缓存整个 ip2region.xdb。
   xdb-buffer: "vindex"
-  
   # 开启 bStats 统计
   allow-bstats: true
 
@@ -68,7 +68,7 @@ messages:
     # 是否在玩家登录后发送一条消息显示 IP 归属地。
     enabled: true
     # 消息格式
-    string: "§7[§6PotatoIpDisplay§7] §e您当前IP归属地 §7[§b%ipAttr%§7]"
+    string: "§7[§6PotatoIPDisplay§7] §e您当前IP归属地 §7[§b%ipAttr%§7]"
 
 # Placeholder API 设置
 papi:
