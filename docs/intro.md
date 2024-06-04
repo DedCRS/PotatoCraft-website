@@ -26,7 +26,7 @@ sidebar_position: 1
 
 虽然原版 Minecraft 也可以加入服务器，但整合包的作用是开箱即用、优化和增强游戏功能，推荐使用。
 
-**整合包可以从 QQ 群文件或[ 我们的网站 ](https://portal.curiousers.org/events/potato-s18.html)获取。** 
+**整合包可以从 QQ 群文件或[ 我们的网站 ](https://portal.curiousers.org/events/potato-s20.html)获取。** 
 
 ![getclient](img/getclient.png)
 

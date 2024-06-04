@@ -1,35 +1,34 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HeroBanner() {
-  
   return (
     <div className={styles.hero} data-theme="dark">
     <div className={styles.heroInner}>
-    <center>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <span
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '&nbsp;<b>土豆网络</b>&nbsp;'
+          __html: '设想一个</br>由<b>社区驱动</b>的、</br>欢迎所有人的</br>Minecraft <b>服务器</b>。&nbsp'
           }}
           />
         </Heading>
-        
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/intro">
-          游玩
+          <Link className="button button--primary" to="/docs/current-season">
+          加入服务器
           </Link>
-          <Link className="button button--secondary" href="/docs/crossplay">
-          跨平台游戏
+          <Link className="button button--info" to="https://drive.curiousers.org/Backups/Potato/client/PotatoPowered/">
+          模组包
           </Link>
         </div>
-        </center>
+        <p style={{color: 'white'}}>[*]截图来自: 2023-06-26 S17</p>
     </div>
     </div>
   );
@@ -39,17 +38,23 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🚀\xa0'}
+        {'🎉\xa0'}
         <Link
-          to="/docs/intro"
+          to="/blog/s20-trailer"
           className={styles.seasonBannerTitleText}>
-          19 周目: OverSpeeding
+          20 周目：???
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            2024/02/04{' '} <b> 已开放 </b> 。
+            支持{' '}
+            <b>
+              <Link to="https://www.minecraft.net/en-us/article/1-21-update-officially-named-tricky-trials">
+                Minecraft 1.21
+              </Link>
+            </b>
+            ！
           </div>
         </div>
       </div>
@@ -73,10 +78,12 @@ function ServerAddressBanner() {
 export default function Home() {
   return (
     <Layout
+      title={`首页`}
       description="PotatoCraft">
-        <SeasonBanner />
+      <SeasonBanner />
       <main>
         <HeroBanner />
+        <HomepageFeatures />
         <ServerAddressBanner />
       </main>
     </Layout>

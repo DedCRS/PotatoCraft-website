@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yukonisen', // Usually your GitHub org/user name.
-  projectName: 'PotatoCraft', // Usually your repo name.
+  organizationName: 'DedCRS', // Usually your GitHub org/user name.
+  projectName: 'PotatoCraft-website', // Usually your repo name.
 
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
@@ -53,14 +53,14 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     announcementBar: {
-      id: 'survey',
-      content: `我们正在调查大家的看法及对暑期服务器的意见，<a href="https://forms.office.com/r/pU9Tjc6YYW" target="_blank"> 点击填写问卷 </a>！`,
+      id: 's20',
+      content: `第20期：<a href="/blog/s20-trailer">预告</a>！加入讨论群获取最新消息`,
       backgroundColor: '#4ec1dd',
       textColor: '#222222',
       isCloseable: true,
     },
     navbar: {
-      title: '土豆网络',
+      title: 'PotatoCraft 土豆网络',
         logo: {
           alt: 'Logo',
           src: 'https://static.wikia.nocookie.net/minecraft/images/5/51/Potato_TextureUpdate.png',
@@ -77,7 +77,7 @@ const config: Config = {
             label: '📡服务器状态',
             position: 'right'},
           {to: '/donate', label: '🎁捐助', position: 'left'},
-          {href: 'https://portal.curiousers.org/events/potato-s18.html', label: '📦整合包下载', position: 'left'},
+          // {href: 'TBD URL', label: '📦整合包下载', position: 'left'},
           {href: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H-M4n639W0unDmzicMfDDz3jHyw1bfoJ&authKey=%2BSAaxUFUgs%2BnTdVOadlMUn3maymaDizC6nG1qzssyVKkICyrVt0M2njxdPEaI3Cz&noverify=0&group_code=605822090', label: '🗯️拉我进群', position: 'left'},
         ],
     },
@@ -85,7 +85,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '文档',
+          title: '帮助',
           items: [
             {
               label: '加入服务器',
@@ -98,28 +98,32 @@ const config: Config = {
           ],
         },
         {
-          title: 'CSUB 社群',
+          title: 'Friends',
           items: [
             {
-              label: '黑盒语音',
-              href: 'https://chat.xiaoheihe.cn/ipr36u',
+              label: 'NightFish',
+              href: 'https://github.com/dmzz-yyhyy',
             },
             {
-              label: 'TeamSpeak 3',
-              href: 'https://ts.curiousers.org',
-            },
-          ],
-        },
-        {
-          title: '更多',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/yukonisen/PotatoCraft',
+              label: 'UnnamedSer',
+              href: 'https://unnamedser.com/',
             },
             {
               label: 'Curiousers!',
               href: 'https://curiousers.org',
+            },
+          ],
+        },
+        {
+          title: '关于',
+          items: [
+            {
+              label: 'View Source (GitHub)',
+              href: 'https://github.com/DedCRS/PotatoCraft-website',
+            },
+            {
+              label: 'DedCRS',
+              href: 'https://github.com/DedCRS',
             },
             {
               html: `
@@ -132,12 +136,12 @@ const config: Config = {
         },
       ],
       
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://curiousers.org/" target="_blank">Curiousers!</a> and their <a href="https://github.com/yukonisen/PotatoCraft/graphs/contributors" target="_blank">contributors</a>.
+      copyright: `Copyright © 2019-${new Date().getFullYear()} <a href="https://github.com/DedCRS" target="_blank">DedCRS</a> and their <a href="https://github.com/DedCRS/PotatoCraft-website/graphs/contributors" target="_blank">contributors</a>.
       <br />
       <a>
         <img src="https://vercelbadge.vercel.app/api/yukonisen/potatonetwork?style=flat-square" />
-        <img src="https://img.shields.io/github/languages/top/yukonisen/potatocraft?style=flat-square" />
-        <img src="https://img.shields.io/github/last-commit/yukonisen/potatocraft?style=flat-square" />
+        <img src="https://img.shields.io/github/languages/top/DedCRS/potatocraft-website?style=flat-square" />
+        <img src="https://img.shields.io/github/last-commit/DedCRS/potatocraft-website?style=flat-square" />
       `,
     },
     prism: {
