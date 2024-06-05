@@ -21,11 +21,11 @@ function HeroBanner() {
           />
         </Heading>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/current-season">
-          加入服务器
+          <Link className="button button--primary" to="/blog/s20-trailer">
+          开服倒计时
           </Link>
-          <Link className="button button--info" to="https://drive.curiousers.org/Backups/Potato/client/PotatoPowered/">
-          模组包
+          <Link className="button button--info" href="#">
+          模组包（链接移除）
           </Link>
         </div>
         <p style={{color: 'white'}}>[*]截图来自: 2023-06-26 S17</p>
@@ -67,10 +67,7 @@ function ServerAddressBanner() {
     <div
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
-    <img
-          src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"
-          style={{ height: '60%' }}
-        />
+    <iframe src="https://free.timeanddate.com/countdown/i9eijlms/n33/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs200/szw448/szh189/tatS20%20%E5%BC%80%E6%9C%8D%E5%80%92%E8%AE%A1%E6%97%B6/tacfff/tptS20%20%E5%B7%B2%E7%BB%8F%E5%BC%80%E6%9C%8D/tpcfff/matUTC%2B8/macfff/mptUTC%2B8/mpcfff/iso2024-06-26T16:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
     </div>
   );
 }
