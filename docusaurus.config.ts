@@ -95,6 +95,10 @@ const config: Config = {
               label: '规则',
               to: '/rule',
             },
+            {
+              label: '详细技术信息',
+              to: '/specs',
+            },
           ],
         },
         {
