@@ -54,7 +54,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 's20',
-      content: `第20期：<a href="/blog/s20-trailer">预告</a>！加入讨论群获取最新消息`,
+      content: `第20周目：<a href="/blog/s20-trailer">『土豆幻想』</a>！ 现在<a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H-M4n639W0unDmzicMfDDz3jHyw1bfoJ&authKey=%2BSAaxUFUgs%2BnTdVOadlMUn3maymaDizC6nG1qzssyVKkICyrVt0M2njxdPEaI3Cz&noverify=0&group_code=605822090">加入讨论群</a>，获取最新消息！`,
       backgroundColor: '#4ec1dd',
       textColor: '#222222',
       isCloseable: true,

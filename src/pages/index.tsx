@@ -38,11 +38,11 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🎉\xa0'}
+        {'🔮\xa0'}
         <Link
           to="/blog/s20-trailer"
           className={styles.seasonBannerTitleText}>
-          20 周目：???
+          倒计时：第 20 周目『土豆幻想』
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
@@ -54,7 +54,7 @@ function SeasonBanner() {
                 Minecraft 1.21
               </Link>
             </b>
-            ！
+            ，基岩版互通，以及更多
           </div>
         </div>
       </div>
