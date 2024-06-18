@@ -22,10 +22,10 @@ function HeroBanner() {
         </Heading>
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/blog/s20-trailer">
-          开服倒计时
+          暑假服 (1.21+)
           </Link>
-          <Link className="button button--info" href="#">
-          模组包（链接移除）
+          <Link className="button button--info" href="/blog/potato-anvil">
+          铁砧工艺通道 (1.20.1)
           </Link>
         </div>
         <p style={{color: 'white'}}>[*]截图来自: 2023-06-26 S17</p>
