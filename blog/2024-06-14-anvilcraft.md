@@ -1,0 +1,21 @@
+---
+slug: "potato-anvil"
+title: "21 周目预告: Potato Anvil『土豆牌铁砧』"
+tags: [暑假服, Java]
+authors: [nightfish]
+---
+
+土豆网络第21周目: Potato Anvil『土豆牌铁砧』预计在2024年7月1日开放
+
+本期存档是以 [铁砧工艺](https://www.curseforge.com/minecraft/mc-mods/anvilcraft) 等 Mod 为主的模组生存玩法，支持 Minecraft 版本 1.20.1 forge
+
+链接： [**客户端下载【无链接】**](#) / [**Mod列表**](https://cur1ousers-my.sharepoint.com/:x:/g/personal/yukonisen_curiousers_org/EZpWI_Rj_EpFnmZu_4bEtXkBR6eJjSIeAmjhjZ-U379KCA?e=Uwfxwh)
+
+:::info 详细了解 铁砧工艺
+
+[![card](https://github-readme-stats.vercel.app/api/pin/?username=Anvil-Dev&repo=AnvilCraft)](https://github.com/Anvil-Dev/AnvilCraft)
+
+:::
+
+
+<!--truncate-->
