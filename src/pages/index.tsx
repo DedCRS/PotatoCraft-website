@@ -16,16 +16,16 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '设想一个</br>由<b>社区驱动</b>的、</br>欢迎所有人的</br>Minecraft <b>服务器</b>。&nbsp'
+          __html: '由<b>社区驱动</b>的</br>Minecraft </br><b>服务器</b>。&nbsp'
           }}
           />
         </Heading>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/blog/s20-trailer">
-          暑假服 (1.21+)
+          <Link className="button button--primary" to="/blog/potato-anvil">
+          铁砧工艺模组服 (1.20.1)
           </Link>
-          <Link className="button button--info" href="/blog/potato-anvil">
-          铁砧工艺通道 (1.20.1)
+          <Link className="button button--info" href="https://portal.curiousers.org/events/potato-s21.html">
+          整合包下载
           </Link>
         </div>
         <p style={{color: 'white'}}>[*]截图来自: 2023-06-26 S17</p>
@@ -38,23 +38,19 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🔮\xa0'}
+        {'🔮\xa0'} 当前开放：
         <Link
-          to="/blog/s20-trailer"
+          to="/blog/potato-anvil"
           className={styles.seasonBannerTitleText}>
-          倒计时：第 20 周目『土豆幻想』
+          铁砧工艺模组服
         </Link>
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            支持{' '}
-            <b>
-              <Link to="https://www.minecraft.net/en-us/article/1-21-update-officially-named-tricky-trials">
-                Minecraft 1.21
-              </Link>
+            {' '}
+            <b> Minecraft 1.20.1 Forge 
             </b>
-            ，基岩版互通，以及更多
           </div>
         </div>
       </div>
@@ -67,7 +63,10 @@ function ServerAddressBanner() {
     <div
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
-    <iframe src="https://free.timeanddate.com/countdown/i9eijlms/n33/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs200/szw448/szh189/tatS20%20%E5%BC%80%E6%9C%8D%E5%80%92%E8%AE%A1%E6%97%B6/tacfff/tptS20%20%E5%B7%B2%E7%BB%8F%E5%BC%80%E6%9C%8D/tpcfff/matUTC%2B8/macfff/mptUTC%2B8/mpcfff/iso2024-06-26T16:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
+    <img
+          src="https://api.mcstatus.io/v2/widget/java/ac.curiousers.org?dark=true"
+          style={{ height: '60%' }}
+        />
     </div>
   );
 }
@@ -75,7 +74,6 @@ function ServerAddressBanner() {
 export default function Home() {
   return (
     <Layout
-      title={`首页`}
       description="PotatoCraft">
       <SeasonBanner />
       <main>
