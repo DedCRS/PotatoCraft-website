@@ -37,7 +37,7 @@ function SeasonBanner() {
       <div className={styles.seasonBannerTitle}>
         {'🔮\xa0'}
         <Link
-          to="/blog/potato-anvil"
+          to="/blog/the-solstice-convergence"
           className={styles.seasonBannerTitleText}>
           第 23 周目: 夏至盛会
         </Link>
