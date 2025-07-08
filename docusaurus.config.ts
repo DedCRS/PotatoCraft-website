@@ -54,7 +54,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 's20',
-      content: `<a href="/blog/potato-anvil">土豆网络 × 铁砧工艺</a> 模组服现已开启。立刻 <a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H-M4n639W0unDmzicMfDDz3jHyw1bfoJ&authKey=%2BSAaxUFUgs%2BnTdVOadlMUn3maymaDizC6nG1qzssyVKkICyrVt0M2njxdPEaI3Cz&noverify=0&group_code=605822090">加入对话</a>，获取最新消息！`,
+      content: `<a href="/blog/the-solstice-convergence">第 23 周目 </a> 现已开启。立刻 <a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=H-M4n639W0unDmzicMfDDz3jHyw1bfoJ&authKey=%2BSAaxUFUgs%2BnTdVOadlMUn3maymaDizC6nG1qzssyVKkICyrVt0M2njxdPEaI3Cz&noverify=0&group_code=605822090">加入对话</a>，获取最新消息！`,
       backgroundColor: '#4ec1dd',
       textColor: '#222222',
       isCloseable: true,

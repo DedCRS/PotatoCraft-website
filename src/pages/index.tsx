@@ -21,14 +21,11 @@ function HeroBanner() {
           />
         </Heading>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/blog/potato-anvil">
-          铁砧工艺模组服 (1.20.1)
-          </Link>
-          <Link className="button button--info" href="https://portal.curiousers.org/events/potato-s21.html">
-          整合包下载
+          <Link className="button button--info" href="https://portal.curiousers.org/events/potato-s23.html">
+          模组包下载
           </Link>
         </div>
-        <p style={{color: 'white'}}>[*]截图来自: 2023-06-26 S17</p>
+        <p style={{color: 'white'}}>[*]截图来自: 2025-02-08 S22</p>
     </div>
     </div>
   );
@@ -38,18 +35,19 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🔮\xa0'} 当前开放：
+        {'🔮\xa0'}
         <Link
           to="/blog/potato-anvil"
           className={styles.seasonBannerTitleText}>
-          铁砧工艺模组服
+          第 23 周目: 夏至盛会
         </Link>
+        &nbsp;即将开启！
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
             {' '}
-            <b> Minecraft 1.20.1 Forge 
+            <b> 支持 Minecraft 1.21.6 原版 
             </b>
           </div>
         </div>
@@ -64,7 +62,7 @@ function ServerAddressBanner() {
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
     <img
-          src="https://api.mcstatus.io/v2/widget/java/ac.curiousers.org?dark=true"
+          src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"
           style={{ height: '60%' }}
         />
     </div>
